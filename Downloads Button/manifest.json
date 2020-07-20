@@ -1,0 +1,38 @@
+{
+	"name": "Downloads Button",
+	"description": "Add Downloads button in toolbar.",
+	"version": "1.0",
+	"author": "Somchai Sappurit",
+	"homepage_url": "https://github.com/Sappurit/Sappurit-Chrome-Toolbar-Buttons",
+	"permissions": [ "tabs" ],
+	"manifest_version": 2,
+	"browser_action": {
+		"default_title": "Downloads",
+		"default_icon": {
+			"16":  "images/icon_16.png",
+			"32":  "images/icon_32.png",
+			"48":  "images/icon_48.png",
+			"64":  "images/icon_64.png",
+			"72":  "images/icon_72.png",
+			"80":  "images/icon_80.png",
+			"96":  "images/icon_96.png",
+			"128": "images/icon_128.png",
+			"256": "images/icon_256.png"
+		}
+	},
+	"icons": {
+		"16":  "images/icon_16.png",
+		"32":  "images/icon_32.png",
+		"48":  "images/icon_48.png",
+		"64":  "images/icon_64.png",
+		"72":  "images/icon_72.png",
+		"80":  "images/icon_80.png",
+		"96":  "images/icon_96.png",
+		"128": "images/icon_128.png",
+		"256": "images/icon_256.png"
+	},
+	"background": {
+		"scripts": [ "background.js" ],
+		"persistent": false
+	}
+}
