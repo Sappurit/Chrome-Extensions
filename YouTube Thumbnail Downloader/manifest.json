@@ -4,7 +4,7 @@
 	"version": "1.0",
 	"author": "Somchai Sappurit",
 	"homepage_url": "https://github.com/Sappurit/Sappurit-Chrome-Extensions",
-	"permissions": [ "activeTab", "downloads", "*://img.youtube.com/*" ],
+	"permissions": [ "tabs", "downloads", "*://img.youtube.com/*" ],
 	"manifest_version": 2,
 	"browser_action": {
 		"default_title": "YouTube Thumbnail Downloader",
