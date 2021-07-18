@@ -2,8 +2,8 @@
 	"name": "Bookmarks Button",
 	"description": "Add Bookmarks button in toolbar.",
 	"version": "1.0",
-	"author": "Somchai Sappurit",
-	"homepage_url": "https://github.com/Sappurit/Sappurit-Chrome-Extensions",
+	"author": "Sappurit",
+	"homepage_url": "https://github.com/Sappurit/Chrome-Extensions",
 	"permissions": [ "tabs" ],
 	"manifest_version": 2,
 	"browser_action": {

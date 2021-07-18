@@ -2,8 +2,8 @@
 	"name": "YouTube Thumbnail Downloader",
 	"description": "Click to download YouTube thumbnail image.",
 	"version": "1.0",
-	"author": "Somchai Sappurit",
-	"homepage_url": "https://github.com/Sappurit/Sappurit-Chrome-Extensions",
+	"author": "Sappurit",
+	"homepage_url": "https://github.com/Sappurit/Chrome-Extensions",
 	"permissions": [ "tabs", "downloads", "*://img.youtube.com/*" ],
 	"manifest_version": 2,
 	"browser_action": {
