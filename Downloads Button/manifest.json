@@ -1,10 +1,10 @@
 {
 	"name": "Downloads Button",
-	"description": "Add Downloads button in toolbar.",
+	"description": "Add Downloads button in toolbar. Autohide downloads shelf when all downloads completed.",
 	"version": "1.0",
 	"author": "Sappurit",
 	"homepage_url": "https://github.com/Sappurit/Chrome-Extensions",
-	"permissions": [ "tabs" ],
+	"permissions": [ "tabs", "downloads", "downloads.shelf" ],
 	"manifest_version": 2,
 	"browser_action": {
 		"default_title": "Downloads",

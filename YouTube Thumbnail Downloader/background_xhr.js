@@ -1,3 +1,6 @@
+
+//-----------------------------------------------------------------------------
+
 chrome.browserAction.onClicked.addListener(function(tab)
 {
 	if (! tab.url.includes('youtube.com/watch?v='))
@@ -55,6 +58,7 @@ chrome.browserAction.onClicked.addListener(function(tab)
 	downloadThumbnail();
 });
 
+//-----------------------------------------------------------------------------
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab)
 {
@@ -69,3 +73,6 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab)
 	        chrome.browserAction.setIcon({path: 'images/icon_disabled_128.png', tabId: tabId});
 	}
 });
+
+//-----------------------------------------------------------------------------
+
