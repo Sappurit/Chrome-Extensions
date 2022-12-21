@@ -1,7 +1,7 @@
 
 //-----------------------------------------------------------------------------
 
-chrome.browserAction.onClicked.addListener(function(tab)
+chrome.action.onClicked.addListener(function(tab)
 {
 	if (! tab.url.includes('youtube.com/watch?v='))
 	{

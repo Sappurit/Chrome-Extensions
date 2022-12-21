@@ -4,19 +4,21 @@
 	"version": "1.0",
 	"author": "Sappurit",
 	"homepage_url": "https://github.com/Sappurit/Chrome-Extensions",
-	"permissions": [ "tabs", "downloads", "*://img.youtube.com/*" ],
-	"manifest_version": 2,
-	"browser_action": {
+	"manifest_version": 3,
+	"permissions": [ "tabs", "downloads" ],
+	"host_permissions": [ "*://img.youtube.com/*" ],
+	"action": {
 		"default_title": "YouTube Thumbnail Downloader",
 		"default_icon": {
-			"128": "images/icon_disabled_128.png"
+			"96":  "images/icon_disabled_96.png",
+			"128": "images/icon_disabled_128.png",
+			"256": "images/icon_disabled_256.png"
 		}
 	},
 	"icons": {
-		"128": "images/icon_128.png"
+		"96":  "images/icon_96.png",
+		"128": "images/icon_128.png",
+		"256": "images/icon_256.png"
 	},
-	"background": {
-		"scripts": [ "background_fetch.js" ],
-		"persistent": false
-	}
+	"background": { "service_worker": "background_fetch.js" }
 }

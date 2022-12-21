@@ -4,9 +4,9 @@
 	"version": "1.0",
 	"author": "Sappurit",
 	"homepage_url": "https://github.com/Sappurit/Chrome-Extensions",
+	"manifest_version": 3,
 	"permissions": [ "tabs" ],
-	"manifest_version": 2,
-	"browser_action": {
+	"action": {
 		"default_title": "Bookmarks",
 		"default_icon": {
 			"16":  "images/icon_16.png",
@@ -31,8 +31,5 @@
 		"128": "images/icon_128.png",
 		"256": "images/icon_256.png"
 	},
-	"background": {
-		"scripts": [ "background.js" ],
-		"persistent": false
-	}
+	"background": {	"service_worker": "background.js" }
 }
